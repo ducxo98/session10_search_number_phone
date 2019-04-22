@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT</title>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt("enter the number"));
+    let regex = /^(098|097|096|086|032|033|034|035|036|037|038|039)[0-9]{7}$/;
+    let result = regex.test(number);
+        if (result === true) {
+            document.write("This is the number of operator viettel");
+        } else {
+            document.write("This is not the number of network operator viettel");
+        }
+
+</script>
+</body>
+</html>
